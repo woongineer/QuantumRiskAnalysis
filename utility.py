@@ -1,6 +1,6 @@
-from qiskit import QuantumCircuit, transpile
-from qiskit import providers
 from typing import Optional
+
+from qiskit import QuantumCircuit, transpile
 
 
 def get_min_cx_brute(qcircuit: QuantumCircuit,
