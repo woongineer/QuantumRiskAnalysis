@@ -1,11 +1,7 @@
-import matplotlib.pyplot as plt
 import numpy as np
-import qiskit.providers.fake_provider as fp
-from qiskit import QuantumCircuit, transpile
+from qiskit import QuantumCircuit
 from qiskit.primitives import Sampler
-from qiskit.visualization import circuit_drawer, plot_gate_map
 from qiskit_algorithms import EstimationProblem, AmplitudeEstimation
-from utility import get_min_cx_brute
 
 
 class BernoulliA(QuantumCircuit):
